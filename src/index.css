@@ -4,7 +4,8 @@
 }
 
 :root {
-  --slack-color: #3f0f40;
+  --primary-color: #3f0f40;
+  --primary-light-color: #421f44;
 }
 
 body {
