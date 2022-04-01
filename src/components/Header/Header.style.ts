@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Avatar } from '@mui/material';
-import { AccessTime, HelpOutline, Search } from '@mui/icons-material';
+import { AccessTime, HelpOutline } from '@mui/icons-material';
 
 // Styled Components
 export const HeaderContainer = styled.div`
