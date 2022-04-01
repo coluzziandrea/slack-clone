@@ -7,6 +7,12 @@ export const SidebarContainer = styled.div`
   border-top: 1px solid var(--primary-lighter-color);
   max-width: 260px;
   margin-top: 60px; // header height
+
+  > hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--primary-lighter-color);
+  }
 `;
 
 export const SidebarHeader = styled.div`
@@ -45,3 +51,27 @@ export const SidebarInfo = styled.div`
     color: green;
   }
 `;
+
+export const SidebarOptionContainer = styled.div`
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  padding: 8px;
+  gap: 10px;
+  cursor: pointer;
+
+  :hover {
+    opacity: 0.9;
+    background-color: var(--primary-shadow-color);
+  }
+
+  > h3 {
+    font-weight: 500;
+  }
+
+  > h3 > span {
+    padding: 15px;
+  }
+`;
+
+export const SidebarOptionChannel = styled.div``;

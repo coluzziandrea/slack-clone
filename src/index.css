@@ -7,6 +7,8 @@
   --primary-color: #3f0f40;
   --primary-light-color: #421f44;
   --primary-lighter-color: #49274b;
+
+  --primary-shadow-color: #340e36;
 }
 
 body {
